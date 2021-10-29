@@ -1,6 +1,6 @@
 <?php
 /**
- * The template for displaying pages
+ * Template Name: Slidebar Right
  *
  * This is the template that displays all pages by default.
  * Please note that this is the WordPress construct of pages and that
@@ -15,7 +15,9 @@ get_header(); ?>
 
 	<div id="primary" class="content-area">
 		<main id="main" class="site-main" role="main">
-        <h1>This is an About page template (id)</h1>
+
+            <h1>This is a custom  page template with assigns the siderbar on the right</h1>
+
 		<?php
 		// Start the loop.
 		while ( have_posts() ) :
